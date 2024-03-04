@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
 @main
 struct SwiftUI_MVVMApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
+    
+   
 }
