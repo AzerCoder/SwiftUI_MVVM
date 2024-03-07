@@ -11,6 +11,10 @@
 		8220D6112B94676800644167 /* SwiftUI_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220D6102B94676800644167 /* SwiftUI_MVVMUITests.swift */; };
 		8220D6132B94676800644167 /* SwiftUI_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220D6122B94676800644167 /* SwiftUI_MVVMUITestsLaunchTests.swift */; };
 		826C1E4F2B930D93009E700A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C1E4E2B930D93009E700A /* PostCell.swift */; };
+		82A5A3EF2B9A00C100AEF0C4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4D2BA2B92F8C900FB6D25 /* Post.swift */; };
+		82A5A3F02B9A00C100AEF0C4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4D2BA2B92F8C900FB6D25 /* Post.swift */; };
+		82A5A3F12B9A00C900AEF0C4 /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4D2B72B92F88700FB6D25 /* AFHttp.swift */; };
+		82A5A3F22B9A00C900AEF0C4 /* AFHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4D2B72B92F88700FB6D25 /* AFHttp.swift */; };
 		82D4D2942B92F46F00FB6D25 /* SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D4D2932B92F46F00FB6D25 /* SwiftUI_MVVMApp.swift */; };
 		82D4D2982B92F47100FB6D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D4D2972B92F47100FB6D25 /* Assets.xcassets */; };
 		82D4D29B2B92F47100FB6D25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D4D29A2B92F47100FB6D25 /* Preview Assets.xcassets */; };
@@ -363,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A5A3F22B9A00C900AEF0C4 /* AFHttp.swift in Sources */,
 				8220D6042B94673C00644167 /* SwiftUI_MVVMTests.swift in Sources */,
+				82A5A3EF2B9A00C100AEF0C4 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +377,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A5A3F02B9A00C100AEF0C4 /* Post.swift in Sources */,
 				8220D6132B94676800644167 /* SwiftUI_MVVMUITestsLaunchTests.swift in Sources */,
+				82A5A3F12B9A00C900AEF0C4 /* AFHttp.swift in Sources */,
 				8220D6112B94676800644167 /* SwiftUI_MVVMUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
